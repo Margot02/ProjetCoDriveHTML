@@ -1,0 +1,429 @@
+/* menu de navigation */
+
+.header {
+  background: linear-gradient(to bottom, #6fa9c1, #8ec0d4);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.01);
+  opacity: 0.8;
+
+  position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    z-index: 1000; 
+    padding: 10px 50px;
+}
+
+.navContainer{
+    flex: 1; 
+    display: flex;
+    justify-content: center; 
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  list-style: none;
+  width: 100%;
+}
+
+.nav li {
+  color: white;
+  font-size: 200%;
+  display: inline;
+}
+
+.nav a {
+  background: none;
+  border: none;
+  border-style: none;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.encre{
+  position: relative;
+  visibility: hidden;
+}
+
+/* corp du text */
+
+.body {
+  text-align: center;
+  margin: 0px 300px;
+  background: rgb(255, 255, 255);
+}
+
+.logo {
+  scale: 5%;
+  width: 500px;
+  height: 0px;
+  margin-top: -100px;
+}
+
+.logo_text {
+  color: white;
+  scale: 85%;
+  width: 650px;
+  position: absolute;
+  margin-top: 100px;
+  line-height: 5px;
+}
+.top-page {
+  background: linear-gradient(to bottom, #73aec6, #badeea, #bee2ee, #ffffff);
+  background-size: cover;
+  margin: 0px -300px;
+  background-size: cover;
+  height: 80vh;
+}
+
+/*titre */
+
+.titre {
+  position: absolute;
+  margin-top: -300px;
+  scale: 400%;
+}
+
+.illustation {
+  position: unset;
+  scale: 50%;
+  margin-top: -100px;
+  transform: translateX(-40px);
+  background-size: cover; 
+}
+
+.title {
+  position: absolute;
+  top: 20%; 
+  left: 50%;
+  transform: translateX(-10px) translateY(65px) ;
+  text-align: center;
+  color: white;
+  scale: 140%;
+}
+
+#h3Title {
+  font-size: 120%;
+  margin-bottom: -100px;
+  transform: translateX(-85px);
+}
+
+#h1Title1 {
+  font-size: 3.5em;
+  font-weight: bold;
+  margin-bottom: -110px;
+  scale: 90%;
+  transform: translateX(-170px);
+}
+#h1Title2 {
+  font-size: 3.5em;
+  font-weight: bold;
+  margin-bottom: -70px;
+  scale: 120%;
+}
+
+#pTitle {
+  font-size: 90%;
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.8);
+  transform: translateX(130px);
+}
+
+/*   logo */
+
+.logoIcon {
+  scale: 50%;
+  position: absolute;
+  margin-left: -50px;
+  margin-top: -15px;
+}
+
+/* zone de textes */
+
+.topSection {
+  margin-top: 100px;
+  background-size: cover; 
+}
+
+.topSections {
+  top: 900px;
+}
+
+.chapitre {
+  color: rgba(204, 86, 112, 255);
+  text-align: left;
+}
+
+.textAlign {
+  text-align: left;
+  scale: 160%;
+  margin: 150px;
+}
+
+.textDecendre {
+  margin-top: 1000px;
+}
+
+/* Blocs */
+
+.bolc {
+  flex: 1;
+}
+
+.bolc p {
+  color: rgba(161, 161, 161, 255);
+}
+
+.bolc h3 {
+  color: rgba(66, 110, 140, 255);
+}
+
+.bolcCenter {
+  align-items: center;
+  text-align: center;
+}
+
+#ligneFond {
+  background-image: url("images/dessin/ligne.png");
+  background-size: cover; 
+  background-attachment: fixed; 
+  background-position: center;
+  background-repeat: no-repeat; 
+}
+
+
+
+/* chapitre 1  Les actualités */
+
+
+.actualites {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.ActuImg {
+  width: 150px;
+  border-radius: 10px;
+}
+
+.actualites button {
+  background: rgba(239, 245, 248, 255);
+  color: rgba(110, 149, 176, 255);
+  border-style: hidden;
+  border-radius: 10px;
+  font-size: 50%;
+  margin-left: 700px;
+}
+
+/* Chapitre 2  Présentation du projet*/
+
+.etapes {
+  max-width: 300px;
+  margin: auto;
+}
+
+.etapeImg {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.etapes li {
+  list-style: none;
+}
+
+.etapes h2 {
+  color: rgba(66, 110, 140, 255);
+}
+
+.etapes p {
+  color: rgba(161, 161, 161, 255);
+}
+
+/* Chapitre 3  CoDrivers */
+
+.CoDrivers {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  text-align: left;
+}
+
+.CoDrivers ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  list-style: none;
+}
+
+.CoDriversMembres {
+  text-align: center;
+  width: 250px;
+}
+
+.CoDriversImg {
+  width: 150px;
+  border-radius: 50px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  size: cover; 
+}
+
+.CoDriversParagraphe {
+  color: rgba(161, 161, 161, 255);
+  text-align: left;
+  margin: 0 auto;
+}
+
+.CoDrivers li {
+  color: rgba(161, 161, 161, 255);
+}
+
+/* Chapitre 5 informations */
+
+.Info {
+  text-align: center;
+  display: flex;
+  color: rgba(161, 161, 161, 255);
+}
+
+.InfoListe {
+  margin: 5px;
+  text-align: left;
+}
+
+.InfoContact {
+  margin: 5px;
+  margin-left: 100px;
+  text-align: left;
+  transform: translateX(70px) translateY(-8px);
+}
+
+.InfoContact ul {
+  list-style: none;
+}
+
+.imgContact{
+  transform: translateY(5px);
+}
+
+/* Chapitre 6 temoignage */
+
+.Temoignages {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.Temoignages ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  text-align: center;
+}
+
+.Temoignages li {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.Temoignages li p {
+  color: rgba(161, 161, 161, 255);
+}
+
+.Temoignages li h2 {
+  color: rgba(161, 161, 161, 255);
+}
+
+.TemoignagesImg {
+  width: 150px;
+  border-radius: 50px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Temoignages button {
+  background: rgba(239, 245, 248, 255);
+  color: rgba(110, 149, 176, 255);
+  border-style: hidden;
+  border-radius: 10px;
+  font-size: 50%;
+}
+
+/* credit du site */
+
+.Projet {
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: flex-start;
+    text-align: center;
+    padding: 40px 0;
+    flex-wrap: nowrap; 
+    width: 100%;
+    color: rgba(110, 149, 176, 255);
+
+}
+
+.ProjetLi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+}
+
+.ProjetLi img {
+    max-width: 120px;
+    height: auto;
+}
+
+#ProjetLiPartners {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    scale: 60%;
+    margin-top: -50px;
+}
+
+#ProjetLiPorteur {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    scale: 70%;
+    margin-top: -20px;
+}
+
+#ProjetMedia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateX(0px) translateY(-50px);
+    color: rgba(110, 149, 176, 255);
+}
+
+.social-media img {
+    width: 50px;
+    height: auto;
+}
+
+/* bordure de fin  et credit perso */
+
+.burdure {
+  background: rgba(70, 119, 152, 255);
+  padding: 10px;
+  text-align: center;
+  margin: 0px -300px;
+  background-size: cover;
+  height: 10vh;
+  margin-top: 1400px;
+  color: white;
+}
